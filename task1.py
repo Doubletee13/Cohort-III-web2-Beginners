@@ -24,8 +24,8 @@ print(meals)
 meals[-1], meals[3] = meals[3], meals[-1]
 print(meals)
 
-meals= len(meals)//2
-print(meals)
+print(len(meals)//2)
+
 
 meals = sorted(meals)
 print(meals)
