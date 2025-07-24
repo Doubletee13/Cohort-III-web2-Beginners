@@ -20,13 +20,21 @@ print()
 courses.insert(0,"ENG 101")
 print(courses)
 
+'''
+courses = ['ENG'] + courses
+'''
+
 courses.remove("GST 101")
 print(courses)
 
+'''
 courses.insert(-1,"BIO 101")
 print(courses)
+'''
+courses = courses[:4] + ['BIO 101'] + courses[4:]
+print(courses)
 
-print(len(courses))
+#print(len(courses))
 
 
-print(courses[2])
+#print(courses[2])
