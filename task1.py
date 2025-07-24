@@ -15,13 +15,20 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 
 # QUESTION 1
 
-meals.append("Miyan Taushe")
+meals.insert(4,"Miyan Taushe")
 print(meals)
 
 meals.remove("Masa")
 print(meals)
 
-meals.insert(-1,meals[2])
+meals[-1], meals[3] = meals[3], meals[-1]
 print(meals)
+
+meals= len(meals)//2
+print(meals)
+
+meals = sorted(meals)
+print(meals)
+
 
 
