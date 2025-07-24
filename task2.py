@@ -17,7 +17,7 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 genres.append("Drama")
 print(genres)
 
-print(genres[3])
+genres.remove("Fantasy")
 
 print(genres)
 
